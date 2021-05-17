@@ -1,13 +1,13 @@
 package com.tts.validatingforminput;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootApplication
-public class ValidatingFormInputApplication {
+@SpringBootTest
+class ValidatingFormInputApplicationTests {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ValidatingFormInputApplication.class, args);
+	@Test
+	void contextLoads() {
 	}
 
 }
